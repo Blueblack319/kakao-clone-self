@@ -1,0 +1,11 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.status-bar i {
+  color: rgba(0, 0, 0, 0.7);
+}

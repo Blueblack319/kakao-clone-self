@@ -1,0 +1,12 @@
+@import "status-bar.css";
+@import "header.css";
+@import "avatar.css";
+@import "chats.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
