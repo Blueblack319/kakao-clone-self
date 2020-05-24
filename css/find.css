@@ -1,0 +1,47 @@
+.find {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+.find__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.find__recommended-title {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.list .list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list__item i {
+  font-size: 25px;
+}
+
+.list__item .item__title {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.find__right {
+  border: none;
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.find__right i {
+  font-size: 15px;
+}

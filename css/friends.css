@@ -1,0 +1,48 @@
+.friends {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+.friends__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 17px;
+}
+.friends__container:last-child {
+  border-bottom: none;
+}
+
+.friends__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends__friend .friend__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.friends__friend .friend__status {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+.friend__right {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  padding: 3px 10px;
+  border: 2px solid #10f022;
+  border-radius: 20px;
+}
+
+.friend__right i {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.7);
+}

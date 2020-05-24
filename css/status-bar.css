@@ -9,3 +9,7 @@
 .status-bar i {
   color: rgba(0, 0, 0, 0.7);
 }
+
+.status-bar i:nth-child(3) {
+  padding-right: 5px;
+}
