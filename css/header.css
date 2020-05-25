@@ -13,10 +13,22 @@
 .header__right {
   font-size: 20px;
 }
+.header__right i {
+  cursor: pointer;
+}
 
 .header__right i {
   padding: 0px 7px;
 }
+
 .header__right i:last-child {
   padding-right: 15px;
+}
+
+.header__chat {
+  padding-bottom: 30px;
+}
+
+.header__back {
+  padding-right: 13px;
 }

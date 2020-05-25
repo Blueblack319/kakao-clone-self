@@ -8,8 +8,11 @@
       src="https://kit.fontawesome.com/9a8a62daed.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="status-bar">
@@ -31,48 +34,55 @@
       </div>
     </div>
     <main class="more">
-        <div class="friends__container">
-          <span class="friends__title">Friends 14</span>
-            <div class="friend__friend friend">
-              <div class="friend__left">
-                <img src="images/avatar.jpg" />
-                <span>Nicolas Serrano</span>
-                <span>itnicolasme@gmail.com</span>
-              </div>
-              <div class="friend__right">
-                <i class="far fa-comment-alt"></i>
-              </div>
+      <div class="friends__container more__container">
+        <div class="friends__friend friend">
+          <div class="friend__left">
+            <img src="images/avatar.jpg" class="g-avatar l-avatar" />
+            <div class="friend__text">
+              <div class="friend__name">Nicolas Serrano</div>
+              <div class="friend__status">itnicolasme@gmail.com</div>
             </div>
-            <ul class="more__list">
-                <li class="more__list-icon">
-                    <i class="far fa-smile"></i>
-                    <span>Emotions</span>
-                </li>
-                <li class="more__list-icon">
-                    <i class="fas fa-brush"></i>
-                    <span>Themes</span>
-                </li>
-                <li class="more__list-icon">
-                    <i class="fab fa-kickstarter-k"></i>
-                    <span>Account</span>
-                </li>
-            </ul>
-            <div class="more__suggestion-title">Suggestions</div>
-            <ul class="more__list suggestion">
-                <li class="more__list-icon">
-                    <i class="fas fa-quote-right suggestion-icon"></i>
-                    <span>Kakao Stroy</span>
-                </li>
-                <li class="more__list-icon">
-                    <i class="fas fa-beer suggestion-icon"></i>
-                    <span>Kakao friend</span>
-                </li>
-                <li class="more__list-icon">
-                    <i class="fas fa-gamepad suggestion-icon"></i>
-                    <span>Friends Gem</span>
-                </li>
-            </ul>
-            
+          </div>
+        </div>
+        <div class="friend__right more__right">
+          <i class="far fa-comment-alt"></i>
+        </div>
+      </div>
+      <ul class="more__list">
+        <li class="more__list-unit">
+          <i class="far fa-smile"></i>
+          <span>Emotions</span>
+        </li>
+        <li class="more__list-unit">
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
+        </li>
+        <li class="more__list-unit">
+          <i class="fab fa-kickstarter-k"></i>
+          <span>Account</span>
+        </li>
+      </ul>
+      <div class="more__suggestion-title">Suggestions</div>
+      <ul class="more__list suggestion">
+        <li class="more__list-unit">
+          <div class="suggestion-icon">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <span>Kakao Stroy</span>
+        </li>
+        <li class="more__list-unit">
+          <div class="suggestion-icon">
+            <i class="fas fa-beer"></i>
+          </div>
+          <span>Kakao friend</span>
+        </li>
+        <li class="more__list-unit">
+          <div class="suggestion-icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <span>Friends Gem</span>
+        </li>
+      </ul>
     </main>
     <nav class="nav-bar">
       <a href="friends.html">
@@ -80,6 +90,7 @@
       </a>
       <a href="index.html">
         <i class="far fa-comment"></i>
+        <div class="nav__decoration">8</div>
       </a>
       <a href="find.html">
         <i class="fas fa-search"></i>

@@ -1,0 +1,27 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding: 0 10px;
+}
+
+.chat__incoming-message-box {
+  display: flex;
+  padding: 30px 0;
+  align-self: flex-start;
+  font-weight: 600;
+}
+
+.chat__incoming-message {
+  padding: 10px 20px;
+}
+
+.chat__incoming-name {
+  font-size: 12px;
+}
+
+.chat__sent-message {
+  align-self: flex-end;
+  font-weight: 600;
+}

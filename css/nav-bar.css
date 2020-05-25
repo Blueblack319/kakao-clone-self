@@ -14,3 +14,18 @@
   font-size: 20px;
   color: #000000;
 }
+
+.nav-bar .nav__decoration {
+  position: absolute;
+  top: 20px;
+  left: 188px;
+  width: 14px;
+  height: 14px;
+  background-color: red;
+  z-index: 5;
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  line-height: 12px;
+}
